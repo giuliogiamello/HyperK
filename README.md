@@ -446,6 +446,10 @@ void G4tgrEvaluator::AddCommonFunctions()
 
 ## 2025/10/14  - Attempt to install WCSim
 
+<details>
+
+<summary>expand/collapse</summary>
+
 (The first attempt was on `2025/10/07`)
 
 **ACHTUNG!**
@@ -482,7 +486,13 @@ So I should have used `Geant4-v10.3.3` and not `Geant4-v11.3.2` !!!
 
 Today (`2025/10/14`), I installed `Geant4-v10.3.3` and repeated the same procedure from [[HyperK#WCSim - Installation tutorial]] and the command `make -j4 install` worked correctly.
 
+</details>
+
 ## 2025/09/28
+
+<details>
+
+<summary>expand/collapse</summary>
 
 - [Black Screen when running Example1 - Getting Started - Geant4 Forum](https://geant4-forum.web.cern.ch/t/black-screen-when-running-example1/14106/2)
 - [Geant4 OGL visualiztion in Ubuntu 23.04 - Recording, Visualizing and Persisting Data - Geant4 Forum](https://geant4-forum.web.cern.ch/t/geant4-ogl-visualiztion-in-ubuntu-23-04/11025/4)
@@ -492,9 +502,19 @@ Today (`2025/10/14`), I installed `Geant4-v10.3.3` and repeated the same procedu
 XDG_SESSION_TYPE=x11 ./NAME_EXECUTABLE
 ```
 
+</details>
+
 ## Installation tutorials
 
+<details>
+
+<summary>expand/collapse</summary>
+
 ### Geant4 - Installation tutorial
+
+<details>
+
+<summary>expand/collapse</summary>
 
 **ACHTUNG!**
 - If you are planning to use `WCSim`, you should use `Geant4-v10.3.3` and not `Geant4-v11.3.2` (or the last supported version by `WCSim`)
@@ -761,7 +781,13 @@ as explained in [HyperK#2025/09/28](#20250928)
 
 Done!
 
+</details>
+
 ### WCSim - Installation tutorial
+
+<details>
+
+<summary>expand/collapse</summary>
 
 **ACHTUNG!**
 
@@ -847,3 +873,7 @@ WCSim WCSim.mac macros/tuning_parameters.mac
 ```
 
 Done!
+
+</details>
+
+</details>
