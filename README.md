@@ -67,7 +67,7 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 
 ## 2025/10/14  - geant4-v10.3.3 file: `G4tgrEvaluator.cc`
 
-Yesterday [HyperK#2025/10/14 - Attempt to install WCSim](#20251014----attempt-to-install-wcsim) I found out that, in order to use `WCSim`, I need to install `Geant4-v10.3.3`. So I tried to install it following [[HyperK#Geant4 - Installation tutorial]]: it was working until the `make -j4` command.
+Yesterday [HyperK#2025/10/14 - Attempt to install WCSim](#20251014----attempt-to-install-wcsim) I found out that, in order to use `WCSim`, I need to install `Geant4-v10.3.3`. So I tried to install it following [HyperK#Geant4 - Installation tutorial](#geant4---installation-tutorial): it was working until the `make -j4` command.
 This command was interrupted with the error message (using the option `make VERBOSE=1` to get details about the error):
 
 ```
@@ -410,11 +410,11 @@ void G4tgrEvaluator::AddCommonFunctions()
 
 **ACHTUNG!**
 1. You should use `Geant4-v10.3.3` and not `Geant4-v11.3.2` (or the last supported version by `WCSim`)
-2. This section is not my guide on how to install `WCSim`, the guide is [[HyperK#WCSim - Installation tutorial]]
+2. This section is not my guide on how to install `WCSim`, the guide is [HyperK#WCSim - Installation tutorial](#wcsim---installation-tutorial)
 
 ---
 
-On `2025/10/07` I was following [[HyperK#WCSim - Installation tutorial]] and, when running `make -j4 install`, this reported the error:
+On `2025/10/07` I was following [HyperK#WCSim - Installation tutorial](#wcsim---installation-tutorial) and, when running `make -j4 install`, this reported the error:
 
 ```
 In file included from /home/jamal/WCSim_home/WCSim/src/GdNeutronHPCapture.cc:14:
@@ -624,7 +624,7 @@ CPackConfig.cmake         G4ModuleAdjacencyList.txt  geant4make.csh             
 ```
 
 **!!! ACHTUNG !!! ACHTUNG !!! ACHTUNG !!! ACHTUNG !!!**
-If you are about to compile `geant4-v10.3.3` for `WCSim`, you need to edit the file `/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc` as explained in [[HyperK#2025/10/14 - geant4-v10.3.3 file `G4tgrEvaluator.cc`]] 
+If you are about to compile `geant4-v10.3.3` for `WCSim`, you need to edit the file `/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc` as explained in [HyperK#2025/10/14 - geant4-v10.3.3 file `G4tgrEvaluator.cc`](#20251014----geant4-v1033-file-g4tgrevaluatorcc)
 
 - make the `Makefile` (form inside `/home/jamal/geant4Software/geant4/geant4-v11.3.2-build`) with:
 
@@ -717,7 +717,7 @@ If Geant4 starts, but the visualization is bugged (not working properly) try:
 XDG_SESSION_TYPE=x11 ./exampleB1
 ```
 
-as explained in [[HyperK#2025/09/28]]
+as explained in [HyperK#2025/09/28](#20250928)
 
 Done!
 
