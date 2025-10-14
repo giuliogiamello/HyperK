@@ -24,6 +24,10 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 
 ## Links and web-guides 
 
+<details>
+
+<summary>Expand</summary>
+
 ### Geant4
 
 - [Geant4](https://geant4.web.cern.ch/)
@@ -66,6 +70,8 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 - [[Press Release] Excavation of the Colossal Cavern for Hyper-Kamiokande Completed | Kamioka Observatory, ICRR, The University of Tokyo](https://www-sk.icrr.u-tokyo.ac.jp/en/news/detail/1006)
 - [Kamioka Observatory - Wikipedia](https://en.wikipedia.org/wiki/Kamioka_Observatory)
 - [The Hyper-Kamiokande Experiment - Francesca Di Lodovico (King's College London) - YouTube](https://www.youtube.com/watch?v=Tk03dBzf56E)
+
+</details>
 
 ## 2025/10/14  - geant4-v10.3.3 file: `G4tgrEvaluator.cc`
 
