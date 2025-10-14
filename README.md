@@ -1,5 +1,7 @@
 # HyperK
 
+Last update `2025/10/14`
+
 > To source and activate Geant4: `geant4make`; </br>
 > To source and activate WCSim: `wcsim-make`; </br>
 > From what I understood ROOT is sourced automatically at every login (as written at the end of the installation guide in [giuliogiamello/Cern-ROOT](https://github.com/giuliogiamello/Cern-ROOT)).
