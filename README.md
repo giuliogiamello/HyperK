@@ -53,6 +53,8 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 
 #### Geant4-v10.3.3
 
+> Note: `geant4-v10.3.3` is exactly the third patch `geant4.10.03.p03`, those two files are equivalent
+
 - [Software Download Archive | geant4.web.cern.ch](https://geant4-internal.web.cern.ch/support/download_archive?page=5)
 - [geant4-data.web.cern.ch/ReleaseNotes/Patch4.10.3-3.txt](https://geant4-data.web.cern.ch/ReleaseNotes/Patch4.10.3-3.txt)
 - [Geant4 10.3 Release Notes](https://geant4-data.web.cern.ch/ReleaseNotes/ReleaseNotes4.10.3.html)
@@ -86,6 +88,8 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 <details>
 
 <summary>expand/collapse</summary>
+
+> Note: `geant4-v10.3.3` is exactly the third patch `geant4.10.03.p03`, those two files are equivalent
 
 Yesterday [HyperK#2025/10/14 - Attempt to install WCSim](#20251014----attempt-to-install-wcsim) I found out that, in order to use `WCSim`, I need to install `Geant4-v10.3.3`. So I tried to install it following [HyperK#Geant4 - Installation tutorial](#geant4---installation-tutorial): it was working until the `make -j4` command.
 This command was interrupted with the error message (using the option `make VERBOSE=1` to get details about the error):
@@ -521,6 +525,8 @@ XDG_SESSION_TYPE=x11 ./NAME_EXECUTABLE
 - I wrote this tutorial for `Geant4-v11.3.2`, **so remember to change it every time with specific version you are compiling/installing!** 
 - [Geant4 System/Software Prerequisites — Geant4 Installation Guide 10.7 documentation](https://web.archive.org/web/20210220135535/https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/html/gettingstarted.html)
 - [Building and Installing from Source — Geant4 Installation Guide 10.7 documentation](https://web.archive.org/web/20210222000041/https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/html/installguide.html#buildandinstall)
+
+> Note: `geant4-v10.3.3` is exactly the third patch `geant4.10.03.p03`, those two files are equivalent
 
 ---
 
