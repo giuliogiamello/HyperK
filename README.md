@@ -73,6 +73,7 @@ Yesterday [HyperK#2025/10/14 - Attempt to install WCSim](#20251014----attempt-to
 This command was interrupted with the error message (using the option `make VERBOSE=1` to get details about the error):
 
 <details>
+   
 ```
 [ 86%] Building CXX object source/persistency/CMakeFiles/G4persistency.dir/ascii/src/G4tgrEvaluator.cc.o
 cd /home/jamal/geant4Software/geant4/geant4-v10.3.3-build/source/persistency && /usr/bin/g++-11 -DG4MULTITHREADED -DG4VERBOSE -DG4_STORE_TRAJECTORY -DG4persistency_EXPORTS -DGEANT4_DEVELOPER_Release -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/externals/clhep/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/geometry/divisions/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/geometry/management/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/geometry/solids/Boolean/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/geometry/solids/CSG/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/geometry/solids/specific/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/geometry/volumes/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/global/HEPGeometry/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/global/HEPNumerics/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/global/HEPRandom/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/global/management/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/graphics_reps/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/intercoms/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/materials/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/particles/management/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/digits_hits/digits/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/digits_hits/hits/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/event/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/run/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/track/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/tracking/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/mctruth/include -I/home/jamal/geant4Software/geant4/geant4-v10.3.3-build/source/externals/zlib -I/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/externals/zlib/include -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -DG4USE_STD11 -pthread -ftls-model=initial-exec -O3 -DNDEBUG -fno-trapping-math -ftree-vectorize -fno-math-errno -fPIC -MD -MT source/persistency/CMakeFiles/G4persistency.dir/ascii/src/G4tgrEvaluator.cc.o -MF CMakeFiles/G4persistency.dir/ascii/src/G4tgrEvaluator.cc.o.d -o CMakeFiles/G4persistency.dir/ascii/src/G4tgrEvaluator.cc.o -c /home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc
@@ -172,11 +173,14 @@ make[1]: *** [CMakeFiles/Makefile2:3814: source/persistency/CMakeFiles/G4persist
 make[1]: Leaving directory '/home/jamal/geant4Software/geant4/geant4-v10.3.3-build'
 make: *** [Makefile:156: all] Error 2
 ```
+
 </details>
 
 The problem was because Geant4 was trying to define the function `fsqrt`, but this name was already used by c++ ---> conflict definitions!
 
 The original file `/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc` was:
+
+<details>
 
 ```
 //
@@ -289,12 +293,16 @@ void G4tgrEvaluator::AddCommonFunctions()
 }
 ```
 
+</details>
+
 I edited (as suggested at the bottom of [2444 – Geant4 10.7.2 fails to build from sources with GCC 11.2.1 on Fedora.](https://bugzilla-geant4.kek.jp/show_bug.cgi?id=2444)):
 
 - line 80: `G4double fsqrt( G4double arg ){  return std::sqrt(arg); }` --> `G4double fltsqrt( G4double arg ){  return std::sqrt(arg); }`
 - line 103: `setFunction("sqrt", (*fsqrt));` --> `setFunction("sqrt", (*fltsqrt));`
 
 the modified version is:
+
+<details>
 
 ```
 //
@@ -407,6 +415,8 @@ void G4tgrEvaluator::AddCommonFunctions()
 }
 
 ```
+
+</details>
 
 ## 2025/10/14  - Attempt to install WCSim
 
