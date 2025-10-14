@@ -67,7 +67,7 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 
 ## 2025/10/14  - geant4-v10.3.3 file: `G4tgrEvaluator.cc`
 
-Yesterday (test)[#2025/10/13_-_Attempt_to_install_WCSim] I found out that, in order to use `WCSim`, I need to install `Geant4-v10.3.3`. So I tried to install it following [[HyperK#Geant4 - Installation tutorial]]: it was working until the `make -j4` command.
+Yesterday (HyperK#2025/10/14 - Attempt to install WCSim)[#20251014----attempt-to-install-wcsim] I found out that, in order to use `WCSim`, I need to install `Geant4-v10.3.3`. So I tried to install it following [[HyperK#Geant4 - Installation tutorial]]: it was working until the `make -j4` command.
 This command was interrupted with the error message (using the option `make VERBOSE=1` to get details about the error):
 
 ```
