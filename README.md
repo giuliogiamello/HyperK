@@ -6,7 +6,7 @@
 
 <summary>expand/collapse</summary>
 
-Last update `2025/10/14`
+Last update `2025/10/15`
 
 > To source and activate Geant4: `geant4make`; </br>
 > To source and activate WCSim: `wcsim-make`; </br>
