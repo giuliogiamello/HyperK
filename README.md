@@ -36,6 +36,18 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 
 <summary>expand/collapse</summary>
 
+### HyperK
+
+- [Hyper-Kamiokande | Hyper-Kamiokande](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/)
+- [Collaboration Institutes | Hyper-Kamiokande](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/collaboration/)
+- [Kamioka Observatory, ICRR, The University of Tokyo](https://www-sk.icrr.u-tokyo.ac.jp/en/)
+- [Physics | Hyper-Kamiokande](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/research/)
+- [[Press Release] Excavation of the Colossal Cavern for Hyper-Kamiokande Completed | Kamioka Observatory, ICRR, The University of Tokyo](https://www-sk.icrr.u-tokyo.ac.jp/en/news/detail/1006)
+- [Kamioka Observatory - Wikipedia](https://en.wikipedia.org/wiki/Kamioka_Observatory)
+- [The Hyper-Kamiokande Experiment - Francesca Di Lodovico (King's College London) - YouTube](https://www.youtube.com/watch?v=Tk03dBzf56E)
+- [Kamioka Observatory (@Kamiokaobs_pr) / X](https://x.com/kamiokaobs_pr)
+- [5th Hyper-Kamiokande Project Funding Oversight Panel (HKFOP) (October 23, 2025): Videoconference · Indico](https://indico.cern.ch/event/1528098/videoconference/)
+
 ### Geant4
 
 - [Geant4](https://geant4.web.cern.ch/)
@@ -51,16 +63,26 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 - [Overview of Users Documents](https://conferences.fnal.gov/g4tutorial/g4cd/Documentation/Geant4/index.html)
 - [jintonic/geant4: Geant4 tutorials](https://github.com/jintonic/geant4?tab=readme-ov-file)
 
-#### Geant4-v10.3.3
+#### Geant4-v11.3.2
+
+- [Geant4-11 Tutorial 2: Installation & Testing - YouTube](https://www.youtube.com/watch?v=4DTumUo3IKw&list=PLLybgCU6QCGUYAOwtyI4U8cRL6ig0p3c7)
+- [Geant4 Tutorial 1: Installation and Testing of Geant4 - YouTube](https://www.youtube.com/watch?v=Lxb4WZyKeCE&list=PLLybgCU6QCGWgzNYOV0SKen9vqg4KXeVL&index=1)
+- [Download Geant4-11.3.2 - Geant4](https://geant4.web.cern.ch/download/11.3.2.html)
+
+#### Geant4-v10.3.3 (and v10.7)
 
 > Note: `geant4-v10.3.3` is exactly the third patch `geant4.10.03.p03`, those two files are equivalent
 
+- [Download Geant4-10.3.3 - Geant4](https://geant4.web.cern.ch/download/10.3.3.html)
+- [Geant4 System/Software Prerequisites — Geant4 Installation Guide 10.7 documentation](https://web.archive.org/web/20210220135535/https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/html/gettingstarted.html)
+- [Building and Installing from Source — Geant4 Installation Guide 10.7 documentation](https://web.archive.org/web/20210222000041/https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/html/installguide.html#buildandinstall)
 - [Software Download Archive | geant4.web.cern.ch](https://geant4-internal.web.cern.ch/support/download_archive?page=5)
 - [geant4-data.web.cern.ch/ReleaseNotes/Patch4.10.3-3.txt](https://geant4-data.web.cern.ch/ReleaseNotes/Patch4.10.3-3.txt)
 - [Geant4 10.3 Release Notes](https://geant4-data.web.cern.ch/ReleaseNotes/ReleaseNotes4.10.3.html)
 - [Installation of G4.10.6.3 fails on ubuntu22.04 - Getting Started - Geant4 Forum](https://geant4-forum.web.cern.ch/t/installation-of-g4-10-6-3-fails-on-ubuntu22-04/11303)
 - [Error while installing GEANT4 in ubuntu 22.04.2 LTS - Getting Started - Geant4 Forum](https://geant4-forum.web.cern.ch/t/error-while-installing-geant4-in-ubuntu-22-04-2-lts/10896/7)
 - [How to install a patch？ - Getting Started - Geant4 Forum](https://geant4-forum.web.cern.ch/t/how-to-install-a-patch/6650)
+- [2444 – Geant4 10.7.2 fails to build from sources with GCC 11.2.1 on Fedora.](https://bugzilla-geant4.kek.jp/show_bug.cgi?id=2444)
 
 ### WCSim
 
@@ -75,11 +97,6 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 ### Miscellanea
 
 - [felix-cormier/HK_ML_tutorial: tutorials, scripts, classes and more for the HK ML tutorial](https://github.com/felix-cormier/HK_ML_tutorial)
-- [Kamioka Observatory, ICRR, The University of Tokyo](https://www-sk.icrr.u-tokyo.ac.jp/en/)
-- [Physics | Hyper-Kamiokande](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/research/)
-- [[Press Release] Excavation of the Colossal Cavern for Hyper-Kamiokande Completed | Kamioka Observatory, ICRR, The University of Tokyo](https://www-sk.icrr.u-tokyo.ac.jp/en/news/detail/1006)
-- [Kamioka Observatory - Wikipedia](https://en.wikipedia.org/wiki/Kamioka_Observatory)
-- [The Hyper-Kamiokande Experiment - Francesca Di Lodovico (King's College London) - YouTube](https://www.youtube.com/watch?v=Tk03dBzf56E)
 
 </details>
 
