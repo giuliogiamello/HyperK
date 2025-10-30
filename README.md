@@ -6,7 +6,7 @@
 
 <summary>expand/collapse</summary>
 
-Last update `2025/10/15`
+Last update `2025/10/30`
 
 > To source and activate Geant4: `geant4make`; </br>
 > To source and activate WCSim: `wcsim-make`; </br>
@@ -55,6 +55,7 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 - [Geant4 Tutorials - YouTube](https://www.youtube.com/playlist?list=PLLybgCU6QCGWgzNYOV0SKen9vqg4KXeVL)
 - [Overview | geant4.web.cern.ch](https://geant4-internal.web.cern.ch/)
 - [User Documentation | geant4.web.cern.ch](https://geant4-internal.web.cern.ch/support/user_documentation)
+- [Book For Application Developers](https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/)
 - [Geant4 examples: Geant4 Examples](https://geant4-userdoc.web.cern.ch/Doxygen/examples_doc/html/index.html)
 - [Advanced Examples - Geant4](https://geant4.web.cern.ch/docs/advanced_examples_doc/index)
 - [Search: geant · CDS Videos · CERN](https://videos.cern.ch/search?page=1&size=21&q=geant)
@@ -62,6 +63,7 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 - [Geant4 tutorials | home](https://jeffersonlab.github.io/g4home/tutorials/)
 - [Overview of Users Documents](https://conferences.fnal.gov/g4tutorial/g4cd/Documentation/Geant4/index.html)
 - [jintonic/geant4: Geant4 tutorials](https://github.com/jintonic/geant4?tab=readme-ov-file)
+- [Geant4 Resources - Installation guides, tutorials and a Windows GUI](http://geant4-resources.com/index.html)
 
 #### Geant4-v11.3.2
 
