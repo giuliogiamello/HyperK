@@ -244,7 +244,13 @@ jamal@giulio-pc:~$ geant4make
 jamal@giulio-pc:~$ 
 ```
 
+</details>
+
 #### Geant4 - Installation tutorial Test the installation
+
+<details>
+
+<summary>expand/collapse</summary>
 
 - Test the installation
 
