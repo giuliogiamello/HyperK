@@ -17,7 +17,7 @@
 > 
 > - `./executable`
 > 
-> As explained in [HyperK > Geant4 - Installation tutorial Test the installation](#geant4-installation-tutorial-test-the-installation)
+> As explained in [HyperK > Geant4 - Installation tutorial Test the installation](#geant4---installation-tutorial-test-the-installation)
 
 ## Intro
 
@@ -794,6 +794,8 @@ there should be no error and the output looks like:
 jamal@giulio-pc:~$ geant4make 
 jamal@giulio-pc:~$ 
 ```
+
+#### Geant4 - Installation tutorial Test the installation
 
 - Test the installation
 
