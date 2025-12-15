@@ -10,7 +10,9 @@ Click on the section titles below to open them.
 
 ## [Links and web-guides](https://github.com/giuliogiamello/HyperK/blob/main/links_and_web_guides.md)
 
-## [2025/11/27 Geant4 CMake Deprecation **Warning**](https://github.com/giuliogiamello/HyperK/blob/main/cmake_warning.md)
+## [2025/11/27 Geant4 CMake Deprecation Warning](https://github.com/giuliogiamello/HyperK/blob/main/cmake_warning.md)
+
+## [2025/11/27 Geant4 source `PATH` in VSCode](https://github.com/giuliogiamello/HyperK/blob/main/source_path_vscode.md)
 
 ## [](https://github.com/giuliogiamello/HyperK/blob/main/.md)
 
