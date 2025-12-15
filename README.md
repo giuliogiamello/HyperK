@@ -17,7 +17,7 @@
 > 
 > - `./executable`
 > 
-> As explained in [HyperK > Geant4 - Installation tutorial Test the installation](#geant4---installation-tutorial-test-the-installation)
+> As explained in [HyperK > Geant4 - Installation tutorial Test the installation](https://github.com/giuliogiamello/HyperK?tab=readme-ov-file#geant4---installation-tutorial-test-the-installation)
 
 ## Intro
 
