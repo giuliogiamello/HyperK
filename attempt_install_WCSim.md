@@ -34,6 +34,6 @@ If using a newer version of Geant, it is your responsiblity to assess whether Ge
 
 So I should have used `Geant4-v10.3.3` and not `Geant4-v11.3.2` !!!
 
-Today (`2025/10/14`), I installed `Geant4-v10.3.3`, following [Geant4 - Installation tutorial](https://github.com/giuliogiamello/HyperK/blob/main/installation_tutorials.md#geant4---installation-tutorial), and repeated the same procedure from [Installation tutorials](https://github.com/giuliogiamello/HyperK/blob/main/installation_tutorials.md) and the command `make -j4 install` worked correctly.
+Today (`2025/10/14`), I installed `Geant4-v10.3.3`, following [Geant4 - Installation tutorial](https://github.com/giuliogiamello/HyperK/blob/main/installation_tutorials.md#geant4---installation-tutorial), and repeated the same procedure from [WCSim - Installation tutorial](https://github.com/giuliogiamello/HyperK/blob/main/installation_tutorials.md#wcsim---installation-tutorial) and the command `make -j4 install` worked correctly.
 
 :arrow_left: [Go back to main HyperK page](https://github.com/giuliogiamello/HyperK?tab=readme-ov-file#hyperk)
