@@ -1,4 +1,4 @@
-## 2025/11/27 Geant4 CMake Deprecation **Warning**
+## 2025/11/27 Geant4 CMake Deprecation Warning
 
 Read the commented text in the code block below.
 
