@@ -1,6 +1,3 @@
-:arrow_left: [Go back to main HyperK page](https://github.com/giuliogiamello/HyperK?tab=readme-ov-file#hyperk)
-
-
 ## Development workflow
 
 [Development workflow · Wiki · hyperk / sim / GHOST-WCSim · GitLab](https://git.hyperk.org/hyperk/sim/GHOST-WCSim/-/wikis/Development#development-workflow)
