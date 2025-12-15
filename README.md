@@ -16,7 +16,7 @@ Click on the section titles below to open them.
 
 ## [2025/10/31 - `gean4run` alias](https://github.com/giuliogiamello/HyperK/blob/main/gean4run_alias.md)
 
-## [2025/10/14 - geant4-v10.3.3 file: `G4tgrEvaluator.cc`](https://github.com/giuliogiamello/HyperK/blob/main/.md)
+## [2025/10/14 - geant4-v10.3.3 file: `G4tgrEvaluator.cc`](https://github.com/giuliogiamello/HyperK/blob/main/G4tgrEvaluator.md)
 
 ## [2025/10/14 - Attempt to install WCSim](https://github.com/giuliogiamello/HyperK/blob/main/attempt_install_WCSim.md)
 
