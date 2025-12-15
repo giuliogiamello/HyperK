@@ -2,6 +2,8 @@
 
 ## [Tips](https://github.com/giuliogiamello/HyperK/blob/main/tips.md)
 
+## [Development workflow](https://github.com/giuliogiamello/HyperK/blob/main/development_workflow.md)
+
 ## Intro
 
 <details>
