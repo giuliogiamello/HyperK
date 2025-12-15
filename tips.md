@@ -15,7 +15,7 @@
 > 
 > - `./executable`
 > 
-> As explained in []()
+> As explained in [Geant4 - Installation tutorial: Test the installation](https://github.com/giuliogiamello/HyperK/blob/main/installation_tutorials.md#geant4---installation-tutorial-test-the-installation)
 
 > [!TIP]
 > If Geant4 starts, but the visualization is bugged (not working properly) try:
@@ -30,13 +30,13 @@
 > LIBGL_ALWAYS_SOFTWARE=1 XDG_SESSION_TYPE=x11 ./executable
 > ```
 > 
-> as explained in []()
+> as explained in [2025/09/28](https://github.com/giuliogiamello/HyperK/blob/main/2025_09_28.md)
 
 - `LIBGL_ALWAYS_SOFTWARE=1`: Forces OpenGL to use software rendering (CPU) instead of hardware acceleration
 - `XDG_SESSION_TYPE=x11`: Forces the application to use X11 instead of Wayland
 
 > [!ADVICE]
-> I edited my `.bashrc` to not have to run every time the long line and I added the alias `geant4run` (See []())
+> I edited my `.bashrc` to not have to run every time the long line and I added the alias `geant4run` (See [2025/10/31 - `gean4run` alias](https://github.com/giuliogiamello/HyperK/blob/main/gean4run_alias.md))
 
 > [!TIP] 
 > I created a **shared folder** btw my pc and GHOST container using this command:
