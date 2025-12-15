@@ -20,7 +20,7 @@
 - [Geant4-11 Tutorial 2: Installation & Testing - YouTube](https://www.youtube.com/watch?v=4DTumUo3IKw&list=PLLybgCU6QCGUYAOwtyI4U8cRL6ig0p3c7)
 - [Geant4 Tutorial 1: Installation and Testing of Geant4 - YouTube](https://www.youtube.com/watch?v=Lxb4WZyKeCE&list=PLLybgCU6QCGWgzNYOV0SKen9vqg4KXeVL&index=1)
 
-- Open a terminal (suggested in Visual Studio code) and check your system info:
+Open a terminal (suggested in Visual Studio code) and check your system info:
 
 ```
 lsb_release -a
