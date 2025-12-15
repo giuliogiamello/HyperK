@@ -1,3 +1,5 @@
+:arrow_left: [Go back to main HyperK page](https://github.com/giuliogiamello/HyperK?tab=readme-ov-file#hyperk)
+
 ## Tips
 
 > [!WARNING]
@@ -80,3 +82,5 @@
 > ```bash
 > hkp install hk-ToolApp
 > ```
+
+:arrow_left: [Go back to main HyperK page](https://github.com/giuliogiamello/HyperK?tab=readme-ov-file#hyperk)
