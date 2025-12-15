@@ -177,7 +177,7 @@ CPackConfig.cmake         G4ModuleAdjacencyList.txt  geant4make.csh             
 ```
 
 **!!! ACHTUNG !!! ACHTUNG !!! ACHTUNG !!! ACHTUNG !!!** </br>
-If you are about to compile `geant4-v10.3.3` for `WCSim`, you need to edit the file `/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc` as explained in [2025/10/14 - geant4-v10.3.3 file: `G4tgrEvaluator.cc`](https://github.com/giuliogiamello/HyperK/blob/main/.md)
+If you are about to compile `geant4-v10.3.3` for `WCSim`, you need to edit the file `/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc` as explained in [2025/10/14 - geant4-v10.3.3 file: `G4tgrEvaluator.cc`](https://github.com/giuliogiamello/HyperK/blob/main/G4tgrEvaluator.md)
 
 - make the `Makefile` (form inside `/home/jamal/geant4Software/geant4/geant4-v11.3.2-build`) with:
 
