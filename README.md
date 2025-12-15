@@ -1,5 +1,24 @@
 # HyperK
 
+## Tips
+
+> [!WARNING]
+> Before building a geant4 executable **remember** to:
+> 
+> - Create a `build` directory: `mkdir build`
+> - Move into it: `cd build`
+> 
+> Only from there build the project with:
+> 
+> - `cmake ..`
+> - `make`
+> 
+> Finally run the executable just created inside the `build` dir with:
+> 
+> - `./executable`
+> 
+> As explained in [HyperK > Geant4 - Installation tutorial Test the installation](#geant4-installation-tutorial-test-the-installation)
+
 ## Intro
 
 <details>
