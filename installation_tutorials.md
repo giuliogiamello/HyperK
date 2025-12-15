@@ -7,6 +7,7 @@
 <summary>expand/collapse</summary>
 
 **ACHTUNG!**
+
 - If you are planning to use `WCSim`, you should use `Geant4-v10.3.3` and not `Geant4-v11.3.2` (or the last supported version by `WCSim`)
 - I wrote this tutorial for `Geant4-v11.3.2`, **so remember to change it every time with specific version you are compiling/installing!** 
 - [Geant4 System/Software Prerequisites — Geant4 Installation Guide 10.7 documentation](https://web.archive.org/web/20210220135535/https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/html/gettingstarted.html)
