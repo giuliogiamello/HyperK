@@ -2,7 +2,7 @@
 
 > Note: `geant4-v10.3.3` is exactly the third patch `geant4.10.03.p03`, those two files are equivalent
 
-Yesterday [2025/10/14 - Attempt to install WCSim](https://github.com/giuliogiamello/HyperK/blob/main/attempt_install_WCSim.md) I found out that, in order to use `WCSim`, I need to install `Geant4-v10.3.3`. So I tried to install it following [HyperK#Geant4 - Installation tutorial](#geant4---installation-tutorial): it was working until the `make -j4` command.
+Yesterday [2025/10/14 - Attempt to install WCSim](https://github.com/giuliogiamello/HyperK/blob/main/attempt_install_WCSim.md) I found out that, in order to use `WCSim`, I need to install `Geant4-v10.3.3`. So I tried to install it following [Installation tutorials](https://github.com/giuliogiamello/HyperK/blob/main/installation_tutorials.md): it was working until the `make -j4` command.
 This command was interrupted with the error message (using the option `make VERBOSE=1` to get details about the error):
 
 <details>
