@@ -1,6 +1,6 @@
 # HyperK
 
-## (Tips)[https://github.com/giuliogiamello/HyperK/blob/main/tips.md]
+## [Tips](https://github.com/giuliogiamello/HyperK/blob/main/tips.md)
 
 ## Intro
 
