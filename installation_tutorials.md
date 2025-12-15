@@ -177,7 +177,7 @@ CPackConfig.cmake         G4ModuleAdjacencyList.txt  geant4make.csh             
 ```
 
 **!!! ACHTUNG !!! ACHTUNG !!! ACHTUNG !!! ACHTUNG !!!** </br>
-If you are about to compile `geant4-v10.3.3` for `WCSim`, you need to edit the file `/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc` as explained in [HyperK#2025/10/14 - geant4-v10.3.3 file `G4tgrEvaluator.cc`](#20251014----geant4-v1033-file-g4tgrevaluatorcc)
+If you are about to compile `geant4-v10.3.3` for `WCSim`, you need to edit the file `/home/jamal/geant4Software/geant4/geant4-v10.3.3/source/persistency/ascii/src/G4tgrEvaluator.cc` as explained in [2025/10/14 - geant4-v10.3.3 file: `G4tgrEvaluator.cc`](https://github.com/giuliogiamello/HyperK/blob/main/.md)
 
 - make the `Makefile` (form inside `/home/jamal/geant4Software/geant4/geant4-v11.3.2-build`) with:
 
@@ -272,7 +272,7 @@ If Geant4 starts, but the visualization is bugged (not working properly) try:
 XDG_SESSION_TYPE=x11 ./exampleB1
 ```
 
-as explained in [HyperK#2025/09/28](#20250928)
+as explained in [2025/09/28](https://github.com/giuliogiamello/HyperK/blob/main/2025_09_28.md)
 
 Done!
 
