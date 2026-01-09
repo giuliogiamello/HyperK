@@ -35,7 +35,7 @@
 - `LIBGL_ALWAYS_SOFTWARE=1`: Forces OpenGL to use software rendering (CPU) instead of hardware acceleration
 - `XDG_SESSION_TYPE=x11`: Forces the application to use X11 instead of Wayland
 
-> [!ADVICE]
+> [!NOTE]
 > I edited my `.bashrc` to not have to run every time the long line and I added the alias `geant4run` (See [2025/10/31 - `gean4run` alias](https://github.com/giuliogiamello/HyperK/blob/main/gean4run_alias.md))
 
 > [!TIP] 
