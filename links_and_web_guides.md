@@ -12,6 +12,11 @@
 - [Kamioka Observatory (@Kamiokaobs_pr) / X](https://x.com/kamiokaobs_pr)
 - [5th Hyper-Kamiokande Project Funding Oversight Panel (HKFOP) (October 23, 2025): Videoconference · Indico](https://indico.cern.ch/event/1528098/videoconference/)
 
+### SuperK
+
+- [Homepage Super - Kamiokande](https://www-sk.icrr.u-tokyo.ac.jp/sk/)
+- [Realtime Monitor Super - Kamiokande](https://www-sk.icrr.u-tokyo.ac.jp/realtimemonitor/)
+
 ### Geant4
 
 - [Geant4](https://geant4.web.cern.ch/)
@@ -58,7 +63,7 @@
 - [Geant4-10-3 User's Guide for Application Developers](https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/BackupVersions/V10.3/html/index.html)
 - [Geant4-10-3 User's Guide for Toolkit Developers](https://geant4-userdoc.web.cern.ch/UsersGuides/ForToolkitDeveloper/BackupVersions/V10.3/html/index.html)
 
-### WCSim
+### WCSim&fiTQun
 
 - [Home · WCSim/WCSim Wiki](https://github.com/WCSim/WCSim/wiki)
 - [The Water Cherenkov Simulator](https://github.com/WCSim)
