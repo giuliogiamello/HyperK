@@ -8,6 +8,7 @@
 - [Physics | Hyper-Kamiokande](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/research/)
 - [[Press Release] Excavation of the Colossal Cavern for Hyper-Kamiokande Completed | Kamioka Observatory, ICRR, The University of Tokyo](https://www-sk.icrr.u-tokyo.ac.jp/en/news/detail/1006)
 - [Kamioka Observatory - Wikipedia](https://en.wikipedia.org/wiki/Kamioka_Observatory)
+- [Takaaki Kajita, University of Tokyo - “The Hyper Kamiokande project” - YouTube](https://www.youtube.com/watch?v=tVYkIPKiIWg)
 - [The Hyper-Kamiokande Experiment - Francesca Di Lodovico (King's College London) - YouTube](https://www.youtube.com/watch?v=Tk03dBzf56E)
 - [Kamioka Observatory (@Kamiokaobs_pr) / X](https://x.com/kamiokaobs_pr)
 - [5th Hyper-Kamiokande Project Funding Oversight Panel (HKFOP) (October 23, 2025): Videoconference · Indico](https://indico.cern.ch/event/1528098/videoconference/)
