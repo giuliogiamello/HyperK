@@ -3,6 +3,7 @@
 > To source and activate Geant4: `geant4make`; </br>
 > To source and activate WCSim: `wcsim-make`; </br>
 > To source and activate fiTQun: `fitqun-make`; </br>
+> To source and activate ALL: `thesis-make`; </br>
 > From what I understood ROOT is sourced automatically at every login (as written at the end of the installation guide in [giuliogiamello/Cern-ROOT](https://github.com/giuliogiamello/Cern-ROOT)).
 
 The lines I added in `.bashrc`:
@@ -22,6 +23,17 @@ alias wcsim-make="source /home/jamal/WCSim_home/WCSim_build/mydir/bin/this_wcsim
 
 # 2026-02-09: alias for fiTQun
 alias fitqun-make="source /home/jamal/fiTQun/install/bin/this_fitqun.sh"
+
+# 2026-03-03: alias for ALL
+# This runs each command only if the previous one succeeded
+# So if you read the fiTQun output message, it means it worked
+thesis-make() {
+    geant4make && \
+    echo "Exporting GEANT4" && \
+    wcsim-make && \
+    echo "Exporting WCSIM" && \
+    fitqun-make
+}
 ```
 
 :arrow_left: [Go back to main HyperK page](https://github.com/giuliogiamello/HyperK?tab=readme-ov-file#hyperk)
